@@ -3,14 +3,15 @@
 /**
  * main - Entry point
  *
- * Description: Program that prints the alphabet in lowercase, and then in uppercase, followed by a new line. 
+ * Description: Program that prints the alphabet in lowercase
+ * and then in uppercase, followed by a new line.
  *
  */
 int main(void)
 {
 	char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++) 
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
